@@ -1,0 +1,476 @@
+@charset "UTF-8";
+
+/* ESTILO E POSICIONAMENTO GERAL DO SITE */
+
+html {
+    background-color: black;
+    margin: 0px;
+    height: auto;
+    width: 0 auto;
+}
+
+body {
+    background-color: beige;
+    font-size-adjust: 100%;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+footer {
+    background-color: darkslategrey;
+    margin: auto;
+    color: white;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    height: 190px;
+}
+
+header {
+    background-color: darkslategrey;
+    height: 200px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-left: 70px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-right-style: double;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+.minilogo {
+    float: left;
+    background-color: whitesmoke;
+    border: 10px solid darkslategrey;
+    border-radius: 20px;
+    height: 180px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 1em;
+    margin: 10px;
+}
+
+p {
+    font-family: times new roman, cursive, serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 50px;
+}
+
+h1 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: verdana, sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 50px;
+}
+
+.rsface {
+    float: right;
+    display: inline;
+    margin-top: 4.5px;
+}
+
+.rsinsta {
+    float: right;
+    display: inline;
+    margin-top: -2.5px;
+    margin-right: -5px;
+}
+
+.rstwitter {
+    float: right;
+    display: inline;
+    margin-top: 3px;
+    margin-right: -6px;
+}
+
+.end {
+    padding: 0px;
+    font-size: 1em;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.logousa {
+    float: right;
+    margin: 20px;
+}
+
+.logobrasil {
+    float: right;
+    margin: 20px;
+}
+
+.copy {
+    margin-left: 160px;
+    font-size: 0.7em;
+}
+
+
+h6 {
+    display: none;
+}
+
+
+/* INDEX */
+
+.adigital {
+    float: right;
+    border: 10px solid white;
+    margin: -20px 20px 0px 20px;
+
+}
+
+.arvore {
+    float: left;
+    border: 10px solid white;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.nhistoria {
+    margin-right: 400px;
+    float: right;
+}
+
+.safe {
+    padding: 20px 20px 100px 350px;
+    text-align: justify;
+    clear: right;
+    margin-bottom: 50px;
+
+}
+
+.textomata {
+    padding: 0px 350px 50px 20px;
+    text-align: justify;
+    margin-bottom: 110px;
+}
+
+
+/* INDEX 2*/
+
+.desmat {
+    border: 10px solid white;
+    margin-right: 20px;
+    float: right;
+    clear: both;
+    margin-top: -100px;
+    margin-bottom: 50px
+}
+
+.equip {
+    float: left;
+    margin-left: 20px;
+    border: 10px solid white;
+    margin-top: -100px;
+}
+
+.nequipe {
+    float: right;
+    margin-right: 300px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.tequip {
+    float: right;
+    width: 500px;
+    clear: both;
+    margin-right: 50px;
+}
+
+
+/* INDEX 3 E TABELA */
+
+table,
+tr,
+td,
+th {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-left: 30px;
+    width: 550px;
+}
+
+tbody {
+    background-color: whitesmoke;
+    color: black;
+}
+
+thead {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.textodoacao {
+    border: 7px solid white;
+    width: 400px;
+    height: 15px;
+    float: right;
+    background-color: darkslategrey;
+    color: white;
+    margin-top: 150px;
+    margin-right: 70px;
+}
+
+.apertodemao {
+    border: 7px solid white;
+    float: right;
+    clear: both;
+    margin-right: 70px;
+    margin-top: -25px;
+}
+
+.titulo {
+    margin-top: 50px;
+}
+
+.parceiros {
+    margin: 80px;
+}
+
+.patrocinador1,
+.patrocinador2,
+.patrocinador3,
+.patrocinador4 {
+    margin-left: 90px;
+    margin-bottom: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+
+/* INDEX 4 E FORMULÁRIO */
+
+.ajude-nos {
+    text-align: left;
+    margin-left: 255px;
+}
+
+.help-us {
+    text-align: left;
+    margin-left: 290px;
+}
+
+.ajude {
+    margin-left: 90px;
+    margin-top: -80px;
+}
+
+.formulario {
+    text-align: left;
+    margin-left: 50px;
+}
+
+form {
+    text-align: left;
+    font-size: 15px;
+    float: left;
+    margin: 0px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.nome {
+    margin-left: 50px;
+    width: 401px;
+    margin-bottom: 10px;
+}
+
+.tipo {
+    width: 371px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.pfpj {
+    padding: 10px;
+    width: 200px;
+}
+
+.endereco {
+    margin-left: 50px;
+}
+
+.ende {
+    width: 332px;
+    margin-top: 10px;
+}
+
+.email {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.tel {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.cel {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.relate {
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+}
+
+.texta {
+    width: 391px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.button {
+    clear: both;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.no {
+    width: 393px;
+}
+
+.mail {
+    width: 348px;
+}
+
+.tele {
+    width: 305px;
+}
+
+.celu {
+    width: 288.5px;
+}
+
+al .end {
+    font-size: 17px;
+    padding: 0px;
+}
+
+.registration {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.semagua {
+    float: right;
+    margin-top: -300px;
+    margin-right: 50px;
+    border: 10px solid white;
+}
+
+.maosnaterra {
+    float: left;
+    margin-top: -17px;
+    border: 10px solid white;
+}
+
+.lampada {
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border: 10px solid white;
+}
+
+
+/* INDEX 5 */
+
+.contate-nos {
+    margin-top: 100px;
+}
+
+.maosterra {
+    border: 10px solid white;
+    margin: 20px;
+    margin-top: -70px;
+    float: right;
+}
+
+.juntos {
+    border: 10px solid white;
+    float: left;
+    margin: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.mudanca {
+    clear: both;
+    float: right;
+    margin-top: -280px;
+    margin-right: 40px;
+    border: 10px solid white;
+    padding: 40px 20px;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 470px;
+    text-align: center;
+
+}
+
+.mudanca1 {
+    float: left;
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 30px;
+    font-size: 1em;
+    font-family: serif;
+
+}
+
+.mudanca1eng {
+    float: left;
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 30px;
+    font-size: 1em;
+    font-family: serif;
+}
+
+.mudanca2 {
+    float: right;
+    position: absolute;
+    margin-left: 515px;
+    margin-top: 330px;
+    font-size: 1em;
+    font-family: serif;
+}
